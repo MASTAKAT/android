@@ -11,10 +11,14 @@
            fetch="git://github.com/"
            review="review.carbon-rom.com"
            sync-j="4" />
+<remote  name="mk"
+           fetch="git://github.com/MASTERKAT"
+           sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="android" name="MASTERKAT/android" remote="mk" revision="master" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
@@ -427,7 +431,7 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="vendor/lge" name="CarbonDev/proprietary_vendor_lge" remote="cr" revision="kk" />
+  <project path="vendor/lge" name="MASTERKAT/vendor-lge" remote="mk" revision="master" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
