@@ -12,7 +12,7 @@
            review="review.carbon-rom.com"
            sync-j="4" />
 <remote  name="mk"
-           fetch="git://github.com/MASTERKAT"
+           fetch="https://github.com/MASTERKAT"
            sync-j="4" />
 
   <project path="build" name="platform/build" groups="pdk" >
