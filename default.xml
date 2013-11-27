@@ -7,10 +7,6 @@
   <default revision="master"
            remote="aosp"
            sync-j="4" />
-  <remote  name="cr"
-           fetch="git://github.com/"
-           review="review.carbon-rom.com"
-           sync-j="4" />
 <remote  name="mk"
            fetch="https://github.com/MASTERKAT"
            sync-j="4" />
