@@ -166,9 +166,9 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/libppp" name="platform/external/libppp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
-  <project path="external/libunwind" name="platform/external/libunwind" />
+  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" revision="refs/tags/android-4.4_r1.2" />
+  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" revision="refs/tags/android-4.4_r1.2" />
+  <project path="external/libunwind" name="platform/external/libunwind" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/libusb" name="platform/external/libusb" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/libvorbis" name="platform/external/libvorbis" revision="refs/tags/android-4.4_r1.2" />
