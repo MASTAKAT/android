@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="build" remote="mk" revision="master" />
+  <project path="build" name="build" remote="mk" revision="master" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="mk" revision="master" />
