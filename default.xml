@@ -431,7 +431,7 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
-  <project path="vendor/lge" name="MASTERKAT/vendor-lge" remote="mk" revision="master" />
+  <project path="vendor/lge" name="vendor-lge" remote="mk" revision="master" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
