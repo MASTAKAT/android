@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="mk"
-           fetch="https://github.com/MASTERKAT"
+           fetch="https://github.com/MASTAKAT"
            sync-j="4" />
            
   <remote  name="tm"
