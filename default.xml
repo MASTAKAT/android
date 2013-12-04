@@ -426,7 +426,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   
-  <project path="vendor/mk" name="MASTAKAT/android_vendor_mastakat" remote="github" revision="master" >
+  <project path="vendor/mk" name="MASTAKAT/android_vendor_mk" remote="github" revision="master" >
     <copyfile src="build.sh" dest="mk-build.sh" />    
   </project>
 
