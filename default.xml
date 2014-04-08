@@ -8,7 +8,7 @@
            fetch="http://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <default revision="master"
+  <default revision="idea133-weekly-release"
            remote="aosp"
            sync-j="4" />
 
